@@ -9,7 +9,7 @@ import java.util.List;
 public class TestMe {
     @BeforeSuite
     void beforeTest(){
-        System.out.println("Выполняется метод с аннотацие @BeforeSuite");
+        System.out.println("Выполняется метод с аннотацией @BeforeSuite");
     }
 
     @Test (priority = 2)
@@ -20,7 +20,7 @@ public class TestMe {
 
     @Test (priority = 1)
     void testThisMethodTwo(){
-        System.out.println("Выполняется метод 'testThisMethodTwo' с приоритетом = 10");
+        System.out.println("Выполняется метод 'testThisMethodTwo' с приоритетом = 1");
     }
 
 
